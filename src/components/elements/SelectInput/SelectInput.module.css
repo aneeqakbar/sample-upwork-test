@@ -1,0 +1,27 @@
+.wrapper {
+  position: relative;
+  width: fit-content;
+}
+
+.select {
+  padding: 6px 15px;
+  padding-right: 30px;
+  background: #FFFFFF;
+  border-radius: 21px;
+  outline: none;
+  border: 1px solid transparent;
+
+  margin: 0;      
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.wrapper .arrow_icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+}

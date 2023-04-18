@@ -1,0 +1,142 @@
+.wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  min-width: 950px;
+  width: 100%;
+}
+
+.table thead tr th {
+  padding: 20px;
+}
+
+.table thead tr th {
+  text-align: start;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
+
+.table tbody tr {
+  height: 64px;
+
+  background: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+
+.table tbody tr td {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 20px;
+  color: #4f4f4f;
+  white-space: nowrap;
+}
+
+.table tbody tr td:first-child {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.table tbody tr td:first-child {
+  border-radius: 10px 0 0 10px;
+  padding-left: 58px;
+  position: relative;
+}
+
+.table tbody tr td:last-child {
+  border-radius: 0 10px 10px 0;
+  vertical-align: initial;
+}
+
+.table tbody tr td .options_icon {
+  
+}
+
+.link_icon {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  /* margin-right: 20px; */
+}
+
+.tag_cont {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  /* flex-wrap: wrap; */
+  max-width: 100%;
+}
+
+.tag {
+  padding: 4px 11.5px;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  width: fit-content;
+
+  border-radius: 4px;
+}
+
+.tag.v_pink {
+  color: #ad1a72;
+  background: #e3b7d1;
+}
+
+.tag.v_purple {
+  color: #6940a5;
+  background: #d6cfe0;
+}
+
+.tag.v_green {
+  color: #3d9487;
+  background: #3d94874d;
+}
+
+.tag.v_blue {
+  color: #0b6e99;
+  background: #3a89ab4d;
+}
+
+.tag.v_yellow {
+  color: #dfab01;
+  background: #f2c94c33;
+}
+
+.tag.v_orange {
+  color: #d9730d;
+  background: #d9730d4d;
+}
+
+/* Filters Container */
+.filters_cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.filters_cont .left_section {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+@media only screen and (max-width: 450px){
+  .filters_cont .left_section {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
